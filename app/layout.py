@@ -58,7 +58,7 @@ def create_layout(non_fig, cat_fig, config):
                                                    max=config.getfloat('Sliders', 'TgMax'),
                                                    step=config.getfloat('Sliders', 'TgStep'),
                                                    value=config.getfloat('Sliders', 'TgDefault'),
-                                                   marks={300: {'label': "300", 'style': {'fontSize': '14px'}}, 1000: {'label': "1000", 'style': {'fontSize': '14px'}}},
+                                                   marks={300: {'label': "300", 'style': {'fontSize': '14px'}}, 1000: {'label': "1000", 'style': {'fontSize': '14px'}}, 2000: {'label': "2000", 'style': {'fontSize': '14px'}}},
                                                    className="py-4")
                                     ])
                                 ]

@@ -1,0 +1,30 @@
+Molecule,Process,Energy_Threshold_eV,Method,Notes,Source
+NH3,Elastic Scattering,0,CC with Born approx,"Theoretical with Born approx <35 eV, experimental >35 eV (Homem et al.)",
+NH3,Rotational Excitation,0,Theoretical,"Transitions JK=00 to 10,20,30,40,50; theoretical",
+NH3,Vibrational Excitation,0.07-0.68,Theoretical,"Modes v1-v4; theoretical, compared to Itikawa",
+NH3,Electronic Excitation,5.31,"CC-method <35 eV, BEf >35 eV",1³A₁; dissociation to NH₂ + H,
+NH3,Total Scattering,,Close-coupling (CC) expansion,Agrees with Karwasz et al [32] above 15 eV; underpredicted below 15 eV.,web:143 Snoeckx 2023
+NH3,Elastic Scattering,,Close-coupling (CC) expansion,"Agrees with Gianturco [43] below 15 eV; with Born approx, aligns with Homem et al [44] above 15 eV.",web:143 Snoeckx 2023
+NH3,Momentum Transfer,,Close-coupling (CC) expansion,Agrees with Itikawa [31] within ±25%; minor shift below 15 eV.,web:143 Snoeckx 2023
+NH3,Rotational Excitation,,Close-coupling (CC) expansion,Similar to Gianturco [43] and Varella et al [47]; no experimental data.,web:143 Snoeckx 2023
+NH3,Vibrational Excitation,,Close-coupling (CC) expansion,Peak at 7.5 eV aligns with Gulley et al [49]; better than Itikawa [31].,web:143 Snoeckx 2023
+NH3,Electronic Excitation,See Table 5,Close-coupling (CC) expansion,Higher near threshold than Itikawa [31]; CC more accurate at low energies.,web:143 Snoeckx 2023
+NH3,Neutral Dissociation,See Table 5,PEC calculations,"Based on experimental electron collision [56–60] and photodissociation [53, 61–68].",web:143 Snoeckx 2023
+NH3,Ionization,10.89,Close-coupling (CC) expansion,Up to 50% higher than Rejoub et al [71] below 100 eV; good above 100 eV.,web:143 Snoeckx 2023
+NH3,Dissociative Electron Attachment,,Close-coupling (CC) expansion,Peaks at 4.97 eV and 10.57 eV; overestimated vs Rawat et al [72].,web:143 Snoeckx 2023
+NH2,Total Scattering,,Close-coupling (CC) expansion,No experimental data; similar trend to NH3.,web:143 Snoeckx 2023
+NH2,Elastic Scattering,,Close-coupling (CC) expansion,No experimental data; higher with Born approx below 15 eV.,web:143 Snoeckx 2023
+NH2,Momentum Transfer,,Close-coupling (CC) expansion,No experimental data; slightly different from NH3.,web:143 Snoeckx 2023
+NH2,Rotational Excitation,,Close-coupling (CC) expansion,"No experimental data; for J=0→1,2,3,4,5.",web:143 Snoeckx 2023
+NH2,Vibrational Excitation,,Not calculated (open-shell),No data due to method limitation.,web:143 Snoeckx 2023
+NH2,Electronic Excitation,See Table 6,Close-coupling (CC) expansion,No experimental data; peaks at 7.87 eV and 10.06 eV.,web:143 Snoeckx 2023
+NH2,Neutral Dissociation,See Table 6,PEC calculations,"Based on PEC and photodissociation [11, 75–78]; includes metastable state.",web:143 Snoeckx 2023
+NH2,Ionization,13.23,Close-coupling (CC) expansion,No experimental data; BEB method.,web:143 Snoeckx 2023
+NH3,Ionization,10.16,"Experimental (Rejoub et al.), theoretical BEB",,Previous
+NH3,Dissociative Electron Attachment,4.97,Experimental (Rawat et al.),peaks at 4.97 and 10.57 eV,Previous
+NH2,Elastic Scattering,0,Theoretical with Born approx,,Previous
+NH2,Electronic Excitation,2.31,"CC-method <35 eV, BEf >35 eV",1²A₁; bound state,Previous
+NH2,Ionization,11.4,Theoretical,compared to Tarnovsky et al.,Previous
+N2,Dissociation,9.76 (threshold),Phelps database,~10^{-16} cm² at 10 eV,LXCat
+H2,Dissociation,8.8 (threshold),Phelps database,~10^{-16} cm² at 10 eV,LXCat
+N2,Vibrational Excitation,0.29 (v=1),IST-Lisbon database,From BOLSIG+ solver,LXCat

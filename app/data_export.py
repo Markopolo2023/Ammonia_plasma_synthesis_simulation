@@ -1,6 +1,5 @@
 import pandas as pd
 
-
 def export_simulation_data(sol, t, species):
     """
     Export simulation results to a CSV string.

@@ -1,0 +1,34 @@
+Source,Catalyst,N2_H2_Ratio,Flow_Rate_ml_min,Power_W,Pressure_Torr,Temperature_K,NH3_Conc_ppm,Energy_Eff_g_kWh,Conversion_percent
+web:142 OSTI 1979263,γ-Al2O3,1:3,53.0,4-16,550.0,523,6600.0,1.5,0-3
+web:142 OSTI 1979263,5 wt% Cu/γ-Al2O3,1:3,53.0,4-16,550.0,523,,1.5,0-3
+web:142 OSTI 1979263,5 wt% Ru/γ-Al2O3,1:3,53.0,4-16,550.0,523,,1.5,0-3
+web:141 Thesis,Cu wool,1:1,100.0,20,760.0,Ambient,2983.0,0.68,0.3
+web:141 Thesis,Cu wool,1:1,250.0,20,760.0,Ambient,1822.0,1.04,0.18
+web:141 Thesis,Ni wool,1:1,100.0,20,760.0,Ambient,2940.0,0.67,0.29
+web:141 Thesis,Ti wool,1:1,100.0,20,760.0,Ambient,2868.0,0.65,0.29
+web:141 Thesis,SS wool,1:1,100.0,20,760.0,Ambient,2649.0,0.6,0.26
+web:141 Thesis,Ni-Fe wool,1:1,100.0,20,760.0,Ambient,2571.0,0.59,0.26
+web:141 Thesis,Ni-Cr wool,1:1,100.0,20,760.0,Ambient,2561.0,0.58,0.26
+web:141 Thesis,SS Rod,1:1,100.0,20,760.0,Ambient,1885.0,0.43,0.19
+web:141 Thesis,CuO/Al2O3,1:3,50.0,60,760.0,Ambient,6702.0,0.25,0.67
+web:141 Thesis,Fe2O3/Al2O3,1:3,50.0,60,760.0,Ambient,5000-6000,0.2-0.3,0.5-0.6
+Previous compilation,Co/MgAl2O4,1:1,,,760.0,373-473,,,
+Previous compilation,Ru/γ-Al2O3,1:3,53.0,4-16,550.0,523,,1.5,
+Previous compilation,Cu wool,1:1,100.0,20,760.0,,2983.0,0.68,0.38
+Previous compilation,CuO/Al2O3,1:3,50.0,60,760.0,,6702.0,0.25,0.67
+Previous compilation,Ru-Mg/γ-Al2O3 (ns-pulsed),,,,,,,35.7,
+web:10 Ni/Al2O3,1:3,53.0,4-16,550.0,523.0,,,,
+web:11 La2O3/Ni-La2O3,1:3,,,760.0,,,,,
+web:23 Various (review),Various,1:3-3:1,50-250,10-60,760.0,Ambient,1000-7000,0.25-1.5,0.1-1.0
+web:25 Li 2019,Various,1:1-1:3,50-200,10-60,760.0,Ambient,2000-6000,0.5-1.2,0.2-0.8
+web:4 Predicting Model,Co/MgAl2O4,1:3,,,,,,1.5,
+web:145 OSTI 1924699,Fe/Ni/Ag,,0.5-5% N2/0.5-4% H2,,760.0,Ambient,,,100% selectivity for N to NH3 under H:N >3
+web:111 UAntwerpen PDF,Co/Al2O3,1:1,100.0,~65,760.0,<393,5000-6000,,
+web:111 UAntwerpen PDF,CoCe/Al2O3,1:1,100.0,~45-50,760.0,<393,4500-5500,,
+web:111 UAntwerpen PDF,CoCeMg/Al2O3,1:1,100.0,~65,760.0,<393,5000-6000,,
+web:111 UAntwerpen PDF,CoCeLa/Al2O3,1:1,100.0,~65,760.0,<393,5000-6000,,
+web:111 UAntwerpen PDF,CoLa/Al2O3,1:1,100.0,~45-50,760.0,<393,4500-5500,,
+web:112 OSTI 1803043,Ni/Al2O3,2:1,40.0,10,760.0,423-1123,,,
+web:112 OSTI 1803043,Pt/Al2O3,2:1,40.0,10,760.0,423-1123,,,
+web:115 Li 2019,5 wt% Ru/α-Al2O3,2:1,120.0,1.5-38.4,760.0,<391,14900,,
+web:0 DTU PDF,Co/MgAl2O4,1:3,100.0,50-100,760.0,373-473,4000-8000,1.0-2.0,0.5-1.5

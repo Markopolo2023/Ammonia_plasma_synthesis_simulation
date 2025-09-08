@@ -1,0 +1,15 @@
+Reaction,Rate_Constant,Notes,Source
+N + H2(v) -> H + NH,4e-10 * (T_g/300)**0.5 * exp(-16600/T_g + 0.3 * E_v/T_g),E_a = 16600 K; vibrational enhancement,
+N(2D) + H2 -> H + NH,2.3e-12,Excited N atom,
+H + NH2 -> H2 + NH,6.6e-11 * exp(-1840/T_g),Reverse dissociation,
+N + N + M -> N2(A3) + M,6.2e-36,"Three-body recombination for M = N2, H2",
+H + wall -> H(s),gamma_H = 0.1,Sticking coefficient on surfaces,
+N2(v) vibrational relaxation on surface,"(1/4) * v_th,N2 * (v * gamma_loss,v=1)","gamma_loss,v=1 ≈ 0.001–0.0026 on stainless steel and Cu",web:144 OSTI 2331302
+N2(v) dissociative adsorption,A * exp[(-E_a - alpha * E_v)/RT] * H(E_a - alpha * E_v),"A = pre-exponential, alpha = Fridman–Macheret parameter",web:144 OSTI 2331302
+"Recombination of N, H on silica",,"Kinetics from Kim and Boudart, 1991",web:145 OSTI 1924699
+NH3 + M -> NH2 + H + M,1.0e-8 * exp(-38600/T_g),Pyrolysis reaction; overpredicted below 600 K,web:80 KAUST
+N + NH2 -> NH + NH,1.5e-11,Three-body variant in some models,
+e + N2 -> e + N2(v),From LXCat cross-sections,BOLSIG+ solver for rates,ZDPlasKin models
+N + H -> NH,4.0e-10 * exp(-3150/T_g),Stepwise hydrogenation,
+NH + H -> NH2,1.0e-10 * exp(-1000/T_g),Stepwise hydrogenation,
+NH2 + H -> NH3,5.0e-11 * exp(-500/T_g),Stepwise hydrogenation,

@@ -1,4 +1,4 @@
-Plasma-Enhanced Ammonia Synthesis Simulation
+## Plasma-Enhanced Ammonia Synthesis Simulation
 
 Overview
 This project simulates plasma-enhanced ammonia (NH₃) synthesis. It provides a Dash-based web dashboard and real world data to model the kinetics of key species (N, H, H₂, NH, NH₂, NH₃, N₂) in a non-thermal plasma reactor. One can visualize species concentrations over time, analyze reaction rate sensitivities, and display governing equations. The simulation uses data from kinetic_rates.csv and parameters from config.ini.
